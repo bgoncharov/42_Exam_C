@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <stdio.h> //DELETE
 #include <stdlib.h>
 
 int		ft_strlen(char *str)
@@ -55,7 +55,7 @@ char	**ft_split(char *str)
 	return (arr);
 }
 
-int		main(void)
+int		main(void) //DELETE
 {
 	char *str = "\t\nhello cat\n";
 	char **res;
