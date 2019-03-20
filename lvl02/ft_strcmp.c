@@ -11,7 +11,7 @@ int		ft_strcmp(char *s1, char *s2)
 	return ((unsigned char)*s1 - (unsigned char)*s2);
 }
 
-int main()
+int main() /* DELETE */
 {
 	char ch1[10] = "\200";
 	char ch2[10] = "\0";
