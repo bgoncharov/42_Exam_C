@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <stdio.h> // DELETE
 
 char	*ft_strrev(char *str)
 {
@@ -19,7 +19,7 @@ char	*ft_strrev(char *str)
 	return (str);
 }
 
-int main()
+int main() // DELETE
 {
 	char ch[6] = "hello";
 	printf("%s\n", ch);
