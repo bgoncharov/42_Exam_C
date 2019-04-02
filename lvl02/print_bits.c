@@ -13,7 +13,7 @@ void	print_bits(unsigned char octet)
 	}
 }
 
-int main()
+int main() // DELETE
 {
 	print_bits(1);
 	return (0);

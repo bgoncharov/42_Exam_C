@@ -13,7 +13,7 @@ int     *ft_rrange(int start, int end)
 	return (res);
 }
 
-int main()
+int main() // DELETE
 {
 	ft_rrange(-3, 6);
 	return (0);

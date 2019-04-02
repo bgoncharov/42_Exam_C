@@ -1,12 +1,12 @@
 #include "ft_list.h"
 #include <stdlib.h>
 
-void ft_list_remove_if(t_list **begin_list, void *data_ref, int (*cmp)())
+void	ft_list_remove_if(t_list **begin_list, void *data_ref, int (*cmp)())
 {
-	t_list *tmp;
-	t_list *i;
+	t_list	*tmp;
+	t_list	*i;
 
-	while (*begin_list && cmp((*begin_list)->data, dat_ref))
+	while (*begin_list && cmp((*begin_list)->data, data_ref) == 0)
 	{
 		tmp = *begin_list;
 		*begin_list = (*begin_list)->next;
@@ -19,7 +19,7 @@ void ft_list_remove_if(t_list **begin_list, void *data_ref, int (*cmp)())
 		{
 			tmp = i->next;
 			i->next = tmp->next;
-			free(tmp);
+			free (tmp);
 		}
 		i = i->next;
 	}

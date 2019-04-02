@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <stdio.h> // DELETE
 
 int		max(int *tab, unsigned int len)
 {
@@ -13,7 +13,7 @@ int		max(int *tab, unsigned int len)
 	return (max);
 }
 
-int main()
+int main() // DELETE
 {
 	int ch[5] = {1,2,34,23,6};
 	int x = max(ch, 4);

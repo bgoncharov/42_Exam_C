@@ -1,5 +1,5 @@
 #include <stdlib.h>
-#include <stdio.h>
+#include <stdio.h> // DELETE
 
 int ft_strlen(char *str)
 {
@@ -30,7 +30,7 @@ char	*ft_strdup(char *src)
 	return(new);
 }
 
-int main()
+int main() // DELETE
 {
 	char ch[6] = "hello";
 	ft_strdup(ch);
