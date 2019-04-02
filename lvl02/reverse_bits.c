@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <stdio.h> // DELETE
 
 unsigned char	reverse_bits(unsigned char octet)
 {
@@ -12,7 +12,7 @@ unsigned char	reverse_bits(unsigned char octet)
 			(((octet >> 7) & 1) << 0);
 }
 
-int main ()
+int main () // DELETE
 {
 	unsigned char octet;
 	octet = 237;
