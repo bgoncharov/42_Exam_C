@@ -1,5 +1,5 @@
 #include <stdlib.h>
-#include <stdio.h>
+#include <stdio.h> // DELETE
 
 int		nbr_inbase(char c, int base)
 {
@@ -39,7 +39,7 @@ int		ft_atoi_base(const char *str, int base)
 	return (nbr * sign);
 }
 
-int        main(int ac, char **av)
+int        main(int ac, char **av) // DELETE
 {
     if (ac == 3)
         printf("result: %d\n", ft_atoi_base(av[1], atoi(av[2])));
